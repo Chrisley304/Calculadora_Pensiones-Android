@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Calculador Pensiones</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prefs_file">com.chrisley.tutorialfirebase.PREFERENCE_FILE_KEY</string>
+
+    <string name="a_os">Años</string>
+    <string-array name="AniosUMAs">
+        <item>UMA 2021 - $89.62</item>
+        <item>UMA 2020 - $86.88</item>
+        <item>UMA 2019 - $84.49</item>
+        <item>UMA 2018 - $80.60</item>
+        <item>UMA 2017 - $75.49</item>
+        <item>S.Min. 2016 - $73.04</item>
+        <item>S.Min. 2015 - $70.10</item>
+    </string-array>
+    <string-array name="AniosJubilacion">
+        <item>60 años - 75% pensión</item>
+        <item>61 años - 80% pensión</item>
+        <item>62 años - 85% pensión</item>
+        <item>63 años - 90% pensión</item>
+        <item>64 años - 95% pensión</item>
+        <item>65 años - 100% pensión</item>
+    </string-array>
+</resources>

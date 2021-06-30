@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:animateLayoutChanges="true"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:animateLayoutChanges="true"
+         android:orientation="vertical"
+         >
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:padding="6dp">
+
+             <ImageView
+                 android:id="@+id/IconimageviewCard"
+                 android:layout_width="75dp"
+                 android:layout_height="75dp"
+                 android:layout_alignParentStart="true"
+                 android:layout_centerVertical="true"
+                 android:paddingLeft="14dp"
+                 android:paddingRight="14dp"
+                 android:layout_gravity="center"
+                 android:src="@drawable/ic_money"
+                 />
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginTop="7dp"
+                 android:layout_toRightOf="@id/IconimageviewCard"
+                 android:layout_toEndOf="@+id/IconimageviewCard"
+                 android:orientation="vertical">
+
+                 <TextView
+                     android:id="@+id/textViewTituloCard"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="2dp"
+                     android:fontFamily="@font/muli"
+                     android:text="Salario promedio:"
+                     android:textColor="@color/black_primary"
+                     android:textSize="16sp"
+                     android:gravity="center"
+                     />
+
+                 <TextView
+                     android:id="@+id/textViewContenidoCard"
+                     android:layout_width="match_parent"
+                     android:gravity="center"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="11dp"
+                     android:fontFamily="@font/muli_bold"
+                     android:paddingBottom="20dp"
+                     android:text="$1,265.00 ó 12.13 UMA"
+                     android:textColor="@color/pure_black"
+                     android:textSize="20sp"
+                     />
+
+             </LinearLayout>
+         </RelativeLayout>
+
+     </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+

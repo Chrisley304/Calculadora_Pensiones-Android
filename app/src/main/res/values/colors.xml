@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Primary colors  -->
+    <color name="black_primary">#252627</color>
+    <color name="grey_primary">#E6E7E9</color>
+    <!--    Secondary colors  -->
+    <color name="red_secondary">#A71D31</color>
+    <color name="blue_secondary">#797596</color>
+    <color name="grey_off">#9B9B9B</color>
+    <!--    Pure colors  -->
+    <color name="pure_black">#FF000000</color>
+    <color name="pure_white">#FFFFFFFF</color>
+</resources>
