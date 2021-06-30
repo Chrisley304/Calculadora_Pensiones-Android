@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -21,7 +22,7 @@ public class SplashScreen extends AppCompatActivity {
         Animation animacion1 = AnimationUtils.loadAnimation(this,R.anim.desplazamiento_arriba);
         Animation animacion2 = AnimationUtils.loadAnimation(this,R.anim.desplazamiento_abajo);
 
-        ImageView textv = findViewById(R.id.IVSplashLetters);
+        TextView textv = findViewById(R.id.IVSplashLetters);
         ImageView logo = findViewById(R.id.IVSplashLogo);
 
         // Los elementos hacen las animaciones
