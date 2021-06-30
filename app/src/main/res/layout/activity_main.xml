@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:scaleType="fitStart"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/man_saying_yeah">
@@ -34,6 +35,7 @@
         android:layout_width="367dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
+        android:layout_marginEnd="10dp"
         android:fontFamily="@font/muli_black"
         android:shadowColor="@color/black_primary"
         android:shadowRadius="10"
@@ -42,7 +44,6 @@
         android:textColor="@color/pure_white"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.615"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BotonHistorial">
 
